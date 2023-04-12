@@ -6,14 +6,14 @@
 </head>
 <body>
 <script>
-  let x = [1, 2, 3, 4, 5, 30, 9, 10, 12, 15];
+    let x = [1, 2, 3, 4, 5, 30, 9, 10, 12, 15];
 
-  for(i=0; i<(x.length/2); i++){
-    a = x[i];
-    x[i]=x[length-1-i];
-    x[length-1-i]= a;
-  }
- alert(x);
+    for (let i = 0; i < (x.length / 2); i++) {
+        let a = x[i];
+        x[i] = x[x.length - 1 - i];
+        x[x.length - 1 - i] = a;
+    }
+    alert(x);
 
 </script>
 
