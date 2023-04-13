@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x = [1, 2, 3, 4, 5, 9000, 500, -24, 70];
+    let max = x[0];
+    let i;
+    for (i = 1; i < x.length; i++) {
+        if (x[i] > max) {
+            max = x[i];
+            index = i;
+        }
+    }
+    alert('Gia tri lon nhat cua mang la: ' +max +', o vi tri so: ' +(index+1));
+</script>
+
+    </body>
+    </html>
